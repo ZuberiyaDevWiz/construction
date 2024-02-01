@@ -1,4 +1,3 @@
-import SuccessCard from "./successCard";
 import QualityService from "./QualityService";
 import Sustainability from "./Sustainability";
 import Footer from "./Footer";
