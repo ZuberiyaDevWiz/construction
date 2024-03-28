@@ -88,11 +88,6 @@ function ClientFeedback() {
           <h1 className="font-poppins md:text-5xl text-4xl font-bold pt-2 md:pb-40 pb-10">
             What Our Clients Say
           </h1>
-          {/* <p className="font-poppins md:pb-14 md:pt-10 py-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            <br className="md:block hidden" />
-            eum illum esse voluptatibus, perspiciatis ut eum illum esse
-          </p> */}
 
           <ClientCard
             desc="I have worked with North American Information Systems

@@ -29,7 +29,9 @@ const RandomNumberGenerator: FC<RandomNumberGeneratorProps> = ({
   return (
     <div className=" text-center ">
       <h1 className="text-5xl font-bold">{randomNumber}+</h1>
-      <p className="w-40 pt-1 text-sm">{desc}</p>
+      <p className="w-40 pt-3 md:pt-1 md:text-sm md:font-normal font-semibold pr-7 md:pr-0">
+        {desc}
+      </p>
     </div>
   );
 };

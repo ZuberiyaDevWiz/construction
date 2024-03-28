@@ -130,7 +130,7 @@ const QualityServiceSection: FC<Props> = ({
         />
       </div>
       <h1 className="pt-5 text-lg font-bold text-center ">{title}</h1>
-      <p className="pt-3 text-center md:text-sm text-gray-500">{desc}</p>
+      <p className="pt-2 text-center md:text-sm text-gray-500">{desc}</p>
     </div>
   );
 };
