@@ -1,4 +1,4 @@
-import { FC, useEffect } from "react";
+import { FC, ReactNode, useEffect } from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
@@ -38,6 +38,8 @@ const ClientCard: FC<{
     }
   }, [controls, inView]);
 
+  const splitDesc = desc.split("North American Information Systems");
+
   return (
     <motion.div
       ref={ref}
@@ -66,7 +68,11 @@ const ClientCard: FC<{
       />
       <div className="font-poppins flex flex-col pl-3 md:w-96">
         <RiDoubleQuotesL className="text-5xl text-yellow-500" />
-        <p className=" py-4 text-sm text-gray-800">{desc}</p>
+        <p className="py-4 text-sm text-gray-800">
+          {splitDesc[0]}
+          <strong>North American Information Systems</strong>
+          {splitDesc[1]}
+        </p>
         <h1 className="text-lg font-bold ">{title}</h1>
         <p className="md:text-sm pb-5  font-semibold">{desg}</p>
       </div>
@@ -89,10 +95,11 @@ function ClientFeedback() {
           </p> */}
 
           <ClientCard
-            desc="I have worked with “North American Information Systems”
+            desc="I have worked with North American Information Systems
 for 18 months and the experience has exceeded my highest expectations. The entire team is
 professional, trustworthy, respectful of others and property, and highly skilled with a strong
 work ethic and can do attitude.
+
 "
             desg="Real Estate Developer"
             img="/lady-1.jpg"
@@ -101,11 +108,11 @@ work ethic and can do attitude.
         </div>
         <div className="flex flex-col pt-10 md:pt-0 space-y-10 md:pl-32">
           <ClientCard
-            desc="We hired “North American Information Systems”to completely transform both our backyard
+            desc="We hired North American Information Systems to completely transform both our backyard
 and front yard. We put in a pool, changed hardscapes (driveway and backyard), and new
-landscaping. “North American Information Systems” provided a complete end-to-end service
+landscaping. It provided a complete end-to-end service
 starting with design through finished product. We had a fantastic experience working with
-Warren and the entire “North American Information Systems” team. The results are stunningly
+Warren and the entire team. The results are stunningly
 beautiful and they were very professional and easy to work with.
 "
             desg="Development Company"
@@ -119,7 +126,7 @@ talking about, no guessing or saying let me look into /check on this, that and t
 he put in writing a start and completion date, which further showed his experience and
 confidence in how he runs his jobs. Third, he was the best quote of the four and did more than
 he was supposed to without hesitation. This was a good size job, a three month project and
-these guys never skipped a beat. Working with North American Information Systems was the
+these guys never skipped a beat. Working with them was the
 most pleasant construction experience I have ever had, and I have had a few.
 "
             desg="Architect"
