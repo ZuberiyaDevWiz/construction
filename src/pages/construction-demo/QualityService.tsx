@@ -120,7 +120,7 @@ const QualityServiceSection: FC<Props> = ({
         >
           <Image src={img} alt="images" layout="fill" objectFit="cover" />
         </div>
-        ks
+
         <Image
           src={img}
           alt="images"
