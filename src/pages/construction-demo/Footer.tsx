@@ -6,16 +6,16 @@ export default function Footer() {
     <footer className="bg-[#1a2a3a] md:py-10 text-white">
       <div className=" mx-auto md:flex md:flex-row flex flex-col md:max-w-7xl px-6 justify-between">
         <div className="md:flex md:flex-col flex space-x-2 md:space-x-0 py-4 md:py-0 items-center">
-          <img src="/logo.png" alt="" width={70} height={20} />
+          <img src="/logo.png" alt="" width={60} height={20} />
 
-          <div className="flex space-x-5 pt-2 text-xl text-[#ffc107]">
+          <div className="flex space-x-5 md:pt-5 text-xl text-[#ffc107] pl-4 md:pl-0">
             <FaFacebook className="hover:scale-110" />
             <FaInstagram className="hover:scale-110" />
             <FaTwitter className="hover:scale-110" />
             <FaLinkedin className="hover:scale-110" />
           </div>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 md:gap-x-20 gap-x-0">
           <div className="flex flex-col space-y-2">
             <h3 className="text-lg font-semibold text-[#ffc107]">
               Quick Links
@@ -53,8 +53,19 @@ export default function Footer() {
           </div>
           <div className="flex flex-col space-y-2 ">
             <h3 className="text-lg font-semibold text-[#ffc107]">Contact Us</h3>
-            <p className="text-gray-300">123, Main street, Anytown ST 12345.</p>
-            <p className="text-gray-300">+123-456-7890</p>
+            <p className="text-gray-300 hidden md:block">
+              1203 South Cedar Ridge
+              <br />
+              Dr. Duncanville, Tx. 75137.
+            </p>
+            <p className="text-gray-300 md:hidden">
+              1203 South Cedar Ridge
+              <br />
+              Dr. Duncanville,
+              <br />
+              Tx. 75137.
+            </p>
+            <p className="text-gray-300 pt-2">+1-214-869-8517</p>
           </div>
         </div>
         <div className="flex md:w-64 flex-col space-y-4 py-8 md:pt-0">

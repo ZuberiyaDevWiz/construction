@@ -63,20 +63,21 @@ function NavSection() {
       </div>
       <div className="absolute inset-0 bg-black opacity-70" />
       <div className="absolute top-2 left-0 w-full">
-        <div className="flex items-center justify-between md:px-32 px-3">
-          <div className="flex items-center">
-            <div className="w-20">
+        <div className="flex items-center justify-between md:px-32 px-3 pb-2">
+          <div className="flex items-center space-x-3 ">
+            <div className="w-14">
               <img src="/logo.png" alt="logo" />
             </div>
-            <h1 className="font-poppins font-bold text-white">
-              ULTRA
+
+            <h1 className="font-poppins font-semibold tracking-wider text-sm text-white ">
+              NORTH AMERICAN
               <br />
-              NEON
+              INFORMATION SYSTEMS
             </h1>
           </div>
           <MobileMenu />
           <h1 className="font-poppins text-sm text-yellow-400 md:block hidden">
-            Make a call +91 9739849106
+            Make a call +1-214-869-8517
           </h1>
           <div className="md:flex hidden space-x-6 text-lg text-yellow-400 ">
             <FaFacebook className="hover:scale-125" />
