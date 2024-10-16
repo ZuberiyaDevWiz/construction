@@ -112,11 +112,15 @@ function NavSection() {
         <h1 className="font-poppins md:px-32 px-6  py-5  md:text-7xl text-4xl font-bold text-white">
           Vision Got Larger
         </h1>
-        <p className="md:px-32 px-6  md:text-sm text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          necessitatibus <br /> nam culpa recusandae aspernatur tenetur
-          deserunt? Cupiditate perspiciatis possimus <br /> labore aspernatur
-          molestiae, fuga vitae, delectus ad, doloribus autem eos ipsam.
+        <p className="md:px-32 px-6  md:text-sm text-gray-400 md:w-[60%] text-justify">
+          North American Information Systems (NAIS) delivers high-quality
+          services across telecommunications, pipeline, industrial, and civil
+          construction, along with providing contract personnel. With decades of
+          combined experience, our team ensures your project runs smoothly and
+          efficiently. Since our start as a telecommunications construction
+          company, NAIS has expanded to offer a broader range of services,
+          including intelligent transportation systems, to meet the evolving
+          needs of our clients.
         </p>
         <div className="flex space-x-10 md:px-32 px-6  pt-10">
           <button className="font-poppins bg-[#ffc107] px-5 py-2 md:text-sm font-semibold text-gray-900 hover:scale-105">
